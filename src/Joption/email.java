@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 
 public class email {
 
-    public void verficar() {
+      public void verficar() {
 
         boolean retorno = false;
         int validacion = 0;
@@ -45,10 +45,12 @@ public class email {
                 punto = true;
             }
         }
-        if (email.matches(".+@.+\\..+")) {
-            JOptionPane.showMessageDialog(null,"El mail ingresado es correcto");
-        }
-
-    }
+        
+           if (email.matches("..+@@.+\\...+")) {
+            JOptionPane.showMessageDialog(null,"El mail ingresado es incorrecto");
+            }else{
+          JOptionPane.showMessageDialog(null,"El mail ingresado es correcto" );
+           }
+            }
 
 }

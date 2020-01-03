@@ -18,7 +18,7 @@ public class correo {
             email q = new email();
             q.verficar();
         } catch (NullPointerException t) {
-            JOptionPane.showMessageDialog(null, "REGRESE PRONTO" + t);
+            JOptionPane.showMessageDialog(null,  t);
         }
     }
 }

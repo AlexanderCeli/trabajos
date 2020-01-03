@@ -46,7 +46,7 @@ public class email {
             }
         }
         if (email.matches(".+@.+\\..+")) {
-            System.out.println("El mail ingresado es correcto");
+            JOptionPane.showMessageDialog(null,"El mail ingresado es correcto");
         }
 
     }
